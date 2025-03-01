@@ -77,7 +77,43 @@ class HomeScreen extends StatelessWidget {
                           fontSize: 25,
                           fontWeight: FontWeight.w300),
                     ),
-                    Image.asset('assets/1.png')
+                    Image.asset('assets/1.png'),
+                    Center(
+                      child: Text(
+                        '21 C',
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 55,
+                            fontWeight: FontWeight.w600),
+                      ),
+                    ),
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Center(
+                      child: Text(
+                        'ThunderStorm',
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25,
+                            fontWeight: FontWeight.w600),
+                      ),
+                    ),
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Center(
+                      child: Text(
+                        'Friday 16 . 09.41am',
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 16,
+                            fontWeight: FontWeight.w600),
+                      ),
+                    ),
+                    SizedBox(
+                      height: 30,
+                    )
                   ],
                 ),
               )
