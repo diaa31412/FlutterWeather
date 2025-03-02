@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/home/diyaa/development/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/diyaa/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/diyaa/Desktop/Dart/first/weatherapp/android/app/.cxx/Debug/5i5z121p/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/diyaa/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/diyaa/Desktop/Dart/first/weatherapp/android/app/.cxx/Debug/5i5z121p/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}
